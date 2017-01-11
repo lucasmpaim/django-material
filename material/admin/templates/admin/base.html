@@ -64,7 +64,7 @@
                                 <ul>
                                     {% for model in app.models %}
                                     <li class="{% if model.active %}active{% endif %}">
-                                        <a href="{{ model.admin_url }}"><i class="material-icons left">{{ model.icon }}</i>{{ model.name }}</a>
+                                        <a href="{{ model.admin_url }}"><i class="material-icons">{{ model.icon }}</i>{{ model.name }}</a>
                                     </li>
                                     {% endfor %}
                                 </ul>
